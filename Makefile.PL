@@ -7,7 +7,7 @@ my $meta = {
   "abstract"       => "a readonly variable that you can assign to",
   "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>"],
   "dynamic_config" => 0,
-  "generated_by"   => "Moose::Meta::Class::__ANON__::SERIAL::6 version , CPAN::Meta::Converter version 2.140640",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.016, CPAN::Meta::Converter version 2.140640",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -24,7 +24,7 @@ my $meta = {
                                      },
                       },
   "provides"       => {
-                        "Fixed" => { file => "lib/Fixed.pm", version => 0.002 },
+                        "Fixed" => { file => "lib/Fixed.pm", version => 0.003 },
                         "Fixed::Scalar" => { file => "lib/Fixed.pm" },
                       },
   "release_status" => "stable",
@@ -34,12 +34,12 @@ my $meta = {
                         license      => ["http://dev.perl.org/licenses/"],
                         repository   => {
                                           type => "git",
-                                          url  => "git://github.com/release/p5-fixed.git",
-                                          web  => "https://github.com/release/p5-fixed",
+                                          url  => "git://github.com/tobyink/p5-fixed.git",
+                                          web  => "https://github.com/tobyink/p5-fixed",
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/Fixed/project",
                       },
-  "version"        => 0.002,
+  "version"        => 0.003,
 };
 
 my %dynamic_config;
